@@ -1,329 +1,226 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=\, initial-scale=1.0">
-    <title>
-        <My project Portfolio>
-    </title>
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
-        integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
-        crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link
-        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
-        rel="stylesheet">
-
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Shubham Dhasmana | Full Stack Developer</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"/>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap" rel="stylesheet" />
 </head>
 
 <body>
-    <header>
-        <nav>
-            <a href="#" class="logo">Shubham <span class="logo-effect">Dhasmana</span></a>
-            <div class="theme-toggle">
-                <label class="toggle-label">
-                    <input type="checkbox" id="theme-toggle">
-                    <span class="slider"></span>
-                </label>
-            </div>
-            <ul class="nav-links">
-                <li><a href="#home">Home</a></li>
-                <li><a href="#about">About</a></li>
-                <li><a href="#skills">Skills</a></li>
-                <li><a href="#service">Services</a></li>
-                <li><a href="#portfolio">Portfolio</a></li>
-                <li><a href="#contact">Contact</a></li>
-            </ul>
-        </nav>
-    </header>
+  <header>
+    <nav>
+      <a href="#" class="logo">Shubham <span class="logo-effect">Dhasmana</span></a>
+      <div class="theme-toggle">
+        <label class="toggle-label">
+          <input type="checkbox" id="theme-toggle">
+          <span class="slider"></span>
+        </label>
+      </div>
+      <ul class="nav-links">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#service">Services</a></li>
+        <li><a href="#portfolio">Portfolio</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
 
-    <main>
-        <!-- home section -->
-        <section class="home" id="home">
-            <div class="home-content">
-                <h1>Hello, I'm <span>Shubham</span></h1>
-                <p>I am passionate about coding and full stack development. I want to be good software developer. I will
-                    work hard to egt that poasition.</p>
-                <div class="social-icons">
-                    <a href="#"><i class="fab fa-twitter"></i></a>
-                    <a href="#"><i class="fab fa-linkedin"></i></a>
-                    <a href="#"><i class="fab fa-instagram"></i></a>
-                    <a href="#"><i class="fab fa-facebook"></i></a>
-                </div>
-                <button class="cv-button"><a href="shubham_CV(2).pdf" download>Download CV</a></button>
-            </div>
-            <div class="home-image">
-                <img src="mypicture.jpg" alt="Shubham Dhasmana">
-            </div>
-        </section>
-        <section class="about" id="about">
-            <figure class="about-image">
-                <img src="mypicture.jpg" alt="Shubham Dhasmana">
-            </figure>
-            <div class="about-me">
-                <h1>About <span>Me</span></h1>
-                <h2>Code Warrior</h2>
-                <p>Hi, I'm Shubham Dhasmana, a passionate full-stack developer. I thrive on creating seamless,
-                    responsive, and engaging web experiences. From designing intuitive front-end interfaces to building
-                    robust back-end systems, I take pride in bridging the gap between creativity and technology. My goal
-                    is to craft high-quality digital solutions that solve real-world problems and deliver exceptional
-                    user experiences.</p>
-                <button>Read More</button>
-            </div>
-        </section>
-        <!-- Skill section -->
-        <section class="skills" id="skills">
-            <div class="container">
-                <h1>My <span>Skills</span></h1>
-                <ul>
-                    <li>
-                        <h3>HTML</h3>
-                        <span class="bar"><span class="html" id="html">80%</span></span>
-                    </li>
-                    <li>
-                        <h3>CSS</h3>
-                        <span class="bar"><span class="css" id="css">60%</span></span>
-                    </li>
-                    <li>
-                        <h3>JavaScript</h3>
-                        <span class="bar"><span class="javascript" id="javascript">40%</span></span>
-                    </li>
-                    <li>
-                        <h3>MongoDB</h3>
-                        <span class="bar"><span class="mongodb" id="mongodb">10%</span></span>
-                    </li>
-                    <li>
-                        <h3>Node.js</h3>
-                        <span class="bar"><span class="nodejs" id="nodejs">5%</span></span>
-                    </li>
-                </ul>
-            </div>
-        </section>
-        <!-- Certifications Section -->
-        <section class="certifications" id="certifications">
-            <h2 class="heading">Relevant <span>Certifications</span></h2>
-            <div class="certifications-container">
-                <!-- Certification 1 -->
-                <div class="certification-card">
-                    <img src="https://i.etsystatic.com/32037951/r/il/0b47f7/3406182475/il_570xN.3406182475_qskq.jpg"
-                        alt="Certification 1">
-                    <div class="certification-details">
-                        <h4>Full-Stack Web Development</h4>
-                        <p>Issued by XYZ Academy</p>
-                        <p>Completion Date: Jan 2024</p>
-                        <a href="https://i.etsystatic.com/32037951/r/il/0b47f7/3406182475/il_570xN.3406182475_qskq.jpg"
-                            target="_blank" class="view-button">View Certificate</a>
-                    </div>
-                </div>
+  <main>
+    <!-- Home Section -->
+    <section class="home" id="home">
+      <div class="home-content">
+        <h1>Hello, I'm <span>Shubham Dhasmana</span></h1>
+        <p>Aspiring Full Stack Developer (MERN) passionate about scalable, user-centric web solutions. Skilled in React, Node.js, MongoDB, and RESTful APIs.</p>
+        <div class="social-icons">
+          <a href="#"><i class="fab fa-linkedin"></i></a>
+          <a href="#"><i class="fab fa-github"></i></a>
+          <a href="#"><i class="fab fa-twitter"></i></a>
+        </div>
+        <button class="cv-button"><a href="SHUBHAMDHASMANA_RESUME.pdf" download>Download CV</a></button>
+      </div>
+      <div class="home-image">
+        <img src="mypicture.jpg" alt="Shubham Dhasmana" />
+      </div>
+    </section>
 
-                <!-- Certification 2 -->
-                <div class="certification-card">
-                    <img src="http://www.gizmo1.co.uk/images/JavaScript_certificate.jpg" alt="Certification 2">
-                    <div class="certification-details">
-                        <h4>JavaScript Mastery</h4>
-                        <p>Issued by ABC Institute</p>
-                        <p>Completion Date: Dec 2024</p>
-                        <a href="http://www.gizmo1.co.uk/images/JavaScript_certificate.jpg  " target="_blank"
-                            class="view-button">View Certificate</a>
-                    </div>
-                </div>
+    <!-- About Section -->
+    <section class="about" id="about">
+      <figure class="about-image">
+        <img src="mypicture.jpg" alt="Shubham Dhasmana" />
+      </figure>
+      <div class="about-me">
+        <h1>About <span>Me</span></h1>
+        <h2>Full Stack Developer (MERN)</h2>
+        <p>I’m a Full Stack Developer currently pursuing MCA with experience in real-world communication and technical problem solving as a Customer Service Executive at Hindustan Times. I specialize in building modern applications using React, Node.js, Express, and MongoDB. With a strong foundation in DSA and a drive to continuously learn, I aim to build applications that solve real problems.</p>
+        <button>Read More</button>
+      </div>
+    </section>
 
-                <!-- Certification 3 -->
-                <div class="certification-card">
-                    <img src="https://www.creative-tim.com/blog/content/images/2022/06/certificate--2-.png"
-                        alt="Certification 3">
-                    <div class="certification-details">
-                        <h4>UI/UX Design Essentials</h4>
-                        <p>Issued by DEF Design School</p>
-                        <p>Completion Date: Nov 2024</p>
-                        <a href="https://www.creative-tim.com/blog/content/images/2022/06/certificate--2-.png"
-                            target="_blank" class="view-button">View Certificate</a>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <!-- Service section -->
+    <!-- Skills Section -->
+    <section class="skills" id="skills">
+      <div class="container">
+        <h1>Technical <span>Skills</span></h1>
+        <ul>
+          <li><h3>JavaScript</h3><span class="bar"><span class="javascript" style="width: 85%">85%</span></span></li>
+          <li><h3>React & Redux</h3><span class="bar"><span class="react" style="width: 88%">88%</span></span></li>
+          <li><h3>Node.js & Express.js</h3><span class="bar"><span class="node" style="width: 87%">87%</span></span></li>
+          <li><h3>MongoDB</h3><span class="bar"><span class="mongodb" style="width: 90%">90%</span></span></li>
+          <li><h3>HTML/CSS</h3><span class="bar"><span class="htmlcss" style="width: 90%">90%</span></span></li>
+        </ul>
+      </div>
+    </section>
 
-        <section class="services" id="service">
-            <h2 class="heading">My <span>Services</span></h2>
+    <!-- Certifications -->
+    <section class="certifications" id="certifications">
+      <h2 class="heading">Certifications & <span>Trainings</span></h2>
+      <div class="certifications-container">
+        <div class="certification-card">
+          <img src="fullStack.jpeg" alt="Full Stack">
+          <div class="certification-details">
+            <h4>Full Stack Web Development (Internshala)</h4>
+            <p>Dec 2024 - Jun 2025</p>
+            <a href="https://drive.google.com/file/d/1P48auT24XvTxoUussOOo60ENCrKihBjo/view?usp=drive_link"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+          </div>
+        </div>
 
-            <div class="service-container">
-                <div class="services-box">
-                    <i class="fa-solid fa-code"></i>
-                    <h3>Web Development</h3>
-                    <p>As a full-stack developer, I offer complete web development services, building responsive and
-                        dynamic websites from scratch. Whether it's front-end or back-end development, I can create
-                        seamless and high-performing web applications.</p>
-                    <button><a href="cv.pdf" download>Download CV</a></button>
-                </div>
+        <div class="certification-card">
+          <img src="skillIndia.png" alt="NSDC Certificate">
+          <div class="certification-details">
+            <h4>NSDC Full Stack Development</h4>
+            <p>Skill India | SCHOLIVERSE EDUCARE PVT LTD</p>
+            <a href="https://drive.google.com/file/d/10RLLMYRw20COid-fsKCt_dxcNtoziDiz/view?usp=drive_link"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+          </div>
+        </div>
+      </div>
+    </section>
 
-                <div class="services-box">
-                    <i class="fa-solid fa-pencil"></i>
-                    <h3>Graphic Design</h3>
-                    <p>Alongside coding, I also specialize in graphic design. From logo design to creating engaging
-                        visuals for websites, I ensure that the design is not only attractive but also user-friendly and
-                        aligned with your brand's vision.</p>
-                    <button><a href="cv.pdf" download>Download CV</a></button>
-                </div>
+    <!-- Services Section -->
+    <section class="services" id="service">
+      <h2 class="heading">My <span>Services</span></h2>
+      <div class="service-container">
+        <div class="services-box">
+          <i class="fa-solid fa-code"></i>
+          <h3>Full Stack Development</h3>
+          <p>Develop responsive and dynamic web applications using MERN stack. Focused on performance, usability, and scalability.</p>
+        </div>
 
-                <div class="services-box">
-                    <i class="fa-solid fa-database"></i>
-                    <h3>Database Management</h3>
-                    <p>I provide comprehensive database management services to ensure that your data is organized,
-                        secure, and optimized for performance. Whether it's SQL or NoSQL databases, I can design and
-                        maintain your databases to support efficient data retrieval and storage.</p>
-                    <button><a href="cv.pdf" download>Download CV</a></button>
-                </div>
-            </div>
-        </section>
-        <!-- Portfolio section  -->
-        <section class="portfolio" id="portfolio">
-            <h2 class="heading">Latest <span>Projects</span></h2>
-            <div class="portfolio-container">
-                <!-- Portfolio Box 1 -->
-                <div class="portfolio-box">
-                    <img src="project1.jpg" alt="Project 1">
-                    <div class="portfolio-layer">
-                        <h4>Web Design</h4>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem, dolore.</p>
-                        <a href="#" target="_blank"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
-                    </div>
-                </div>
+        <div class="services-box">
+          <i class="fa-solid fa-mobile"></i>
+          <h3>API Integration</h3>
+          <p>Build secure and scalable REST APIs with Express and MongoDB. Integrate third-party APIs for enhanced functionality.</p>
+        </div>
 
-                <!-- Portfolio Box 2 -->
-                <div class="portfolio-box">
-                    <img src="project2.png" alt="Project 2">
-                    <div class="portfolio-layer">
-                        <h4>App Development</h4>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem, dolore.</p>
-                        <a href="#" target="_blank"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
-                    </div>
-                </div>
+        <div class="services-box">
+          <i class="fa-solid fa-bug"></i>
+          <h3>Debugging & Optimization</h3>
+          <p>Optimize performance and fix bugs in full-stack applications. Proficient in Chrome DevTools and network analysis.</p>
+        </div>
+      </div>
+    </section>
 
-                <!-- Portfolio Box 3 -->
-                <div class="portfolio-box">
-                    <img src="project3.webp" alt="Project 3">
-                    <div class="portfolio-layer">
-                        <h4>UI/UX Design</h4>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem, dolore.</p>
-                        <a href="#" target="_blank"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
-                    </div>
-                </div>
+    <!-- Portfolio Section -->
+    <section class="portfolio" id="portfolio">
+      <h2 class="heading">Featured <span>Projects</span></h2>
+      <div class="portfolio-container">
+        <div class="portfolio-box">
+          <img src="https://dz2cdn1.dzone.com/storage/temp/14227893-1607949811370.png" alt="ShoppyGlobe API">
+          <div class="portfolio-layer">
+            <h4>ShoppyGlobe APIs</h4>
+            <p>Secure, scalable backend using Node.js, Express.js, MongoDB with JWT-based authentication.</p>
+            <a href="https://github.com/shubham910566/ShoppyGlobe-Backend"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+          </div>
+        </div>
 
-                <!-- Portfolio Box 4 -->
-                <div class="portfolio-box">
-                    <img src="project4.jpg" alt="Project 4">
-                    <div class="portfolio-layer">
-                        <h4>Logo Design</h4>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem, dolore.</p>
-                        <a href="#" target="_blank"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
-                    </div>
-                </div>
+        <div class="portfolio-box">
+          <img src="https://www.freepnglogos.com/uploads/youtube-logo-hd-8.png" alt="YouTube Clone">
+          <div class="portfolio-layer">
+            <h4>YouTube-Inspired Platform</h4>
+            <p>React app with video uploads, search, JWT login, and user-based recommendations.</p>
+            <a href="https://github.com/shubham910566/Youtube_Clone"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+          </div>
+        </div>
 
-                <!-- Portfolio Box 5 -->
-                <div class="portfolio-box">
-                    <img src="project5.png" alt="Project 5">
-                    <div class="portfolio-layer">
-                        <h4>Website Redesign</h4>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem, dolore.</p>
-                        <a href="#" target="_blank"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
-                    </div>
-                </div>
+        <div class="portfolio-box">
+          <img src="https://i.ytimg.com/vi/nI-84wCGzio/maxresdefault.jpg" alt="Ecommerce UI">
+          <div class="portfolio-layer">
+            <h4>ShoppyGlobe Frontend</h4>
+            <p>React + Redux-based shopping interface with cart management, responsive layout, routing.</p>
+            <a href="https://github.com/shubham910566/ShoppyGlobe-E-Commerce-webite"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+          </div>
+        </div>
 
-                <!-- Portfolio Box 6 -->
-                <div class="portfolio-box">
-                    <img src="project6.jpg" alt="Project 6">
-                    <div class="portfolio-layer">
-                        <h4>eCommerce Development</h4>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem, dolore.</p>
-                        <a href="#" target="_blank"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <!-- Contact Section -->
-        <section class="contact" id="contact">
-            <h2 class="heading">Get in <span>Touch</span></h2>
-            <div class="contact-container">
-                <div class="contact-info">
-                    <h3>Contact Information</h3>
-                    <p>Feel free to reach out for any inquiries, collaborations, or just to say hi!</p>
-                    <ul>
-                        <li>
-                            <i class="fa-solid fa-phone"></i>
-                            <span>+91 9105668471</span>
-                        </li>
-                        <li>
-                            <i class="fa-solid fa-envelope"></i>
-                            <span>sdhasmana96@gmail.com</span>
-                        </li>
-                        <li>
-                            <i class="fa-solid fa-location-dot"></i>
-                            <span>Pauri Garhwal, Uttarakhand, India</span>
-                        </li>
-                    </ul>
-                </div>
-                <form action="#" class="contact-form">
-                    <div class="input-group">
-                        <input type="text" placeholder="Full Name" required>
-                        <input type="email" placeholder="Email Address" required>
-                    </div>
-                    <input type="text" placeholder="Subject" required>
-                    <textarea placeholder="Your Message" rows="5" required></textarea>
-                    <button type="submit" class="submit-button">Send Message</button>
-                </form>
-            </div>
-        </section>
-        <!-- Footer Section -->
-        <footer class="footer">
-            <div class="footer-container">
-                <div class="footer-about">
-                    <h3>About Me</h3>
-                    <p>
-                        Hi, I’m Shubham Dhasmana, a passionate full-stack developer. I enjoy building dynamic,
-                        responsive, and user-friendly web applications. Let’s connect and create something amazing
-                        together!
-                    </p>
-                </div>
-                <div class="footer-links">
-                    <h3>Quick Links</h3>
-                    <ul>
-                        <li><a href="#home">Home</a></li>
-                        <li><a href="#about">About</a></li>
-                        <li><a href="#skills">Skills</a></li>
-                        <li><a href="#services">Services</a></li>
-                        <li><a href="#portfolio">Portfolio</a></li>
-                        <li><a href="#contact">Contact</a></li>
-                    </ul>
-                </div>
-                <div class="footer-social">
-                    <h3>Follow Me</h3>
-                    <ul>
-                        <li><a href="#"><i class="fa-brands fa-twitter"></i> Twitter</a></li>
-                        <li><a href="#"><i class="fa-brands fa-linkedin"></i> LinkedIn</a></li>
-                        <li><a href="#"><i class="fa-brands fa-instagram"></i> Instagram</a></li>
-                        <li><a href="#"><i class="fa-brands fa-facebook"></i> Facebook</a></li>
-                    </ul>
-                </div>
-            </div>
-            <div class="footer-bottom">
-                <p>© 2024 Shubham Dhasmana. All Rights Reserved.</p>
-                <a href="#home" class="back-to-top"><i class="fa-solid fa-arrow-up"></i> Back to Top</a>
-            </div>
-        </footer>
+        <div class="portfolio-box">
+          <img src="https://cdn2.iconfinder.com/data/icons/weather-flat-14/64/weather02-512.png" alt="Weather App">
+          <div class="portfolio-layer">
+            <h4>Weather App</h4>
+            <p>Vanilla JS app with external weather API and dynamic DOM updates.</p>
+            <a href="https://github.com/shubham910566/Weather-Forecast"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+          </div>
+        </div>
+      </div>
+    </section>
 
+    <!-- Contact Section -->
+    <section class="contact" id="contact">
+      <h2 class="heading">Get in <span>Touch</span></h2>
+      <div class="contact-container">
+        <div class="contact-info">
+          <h3>Contact Me</h3>
+          <ul>
+            <li><i class="fa-solid fa-phone"></i> +91 9105668471</li>
+            <li><i class="fa-solid fa-envelope"></i> sdhmasmana96@gmail.com</li>
+            <li><i class="fa-solid fa-location-dot"></i> Pauri Garhwal, Uttarakhand, India</li>
+          </ul>
+        </div>
+        <form action="#" class="contact-form">
+          <div class="input-group">
+            <input type="text" placeholder="Full Name" required />
+            <input type="email" placeholder="Email Address" required />
+          </div>
+          <input type="text" placeholder="Subject" required />
+          <textarea placeholder="Your Message" rows="5" required></textarea>
+          <button type="submit" class="submit-button">Send Message</button>
+        </form>
+      </div>
+    </section>
 
-
-
-
-
-
-    </main>
-
-
+    <!-- Footer -->
+    <footer class="footer">
+      <div class="footer-container">
+        <div class="footer-about">
+          <h3>About Me</h3>
+          <p>Full Stack Developer (MERN) passionate about clean code, user experience, and solving real-world problems with scalable web applications.</p>
+        </div>
+        <div class="footer-links">
+          <h3>Quick Links</h3>
+          <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#service">Services</a></li>
+            <li><a href="#portfolio">Portfolio</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div>
+        <div class="footer-social">
+          <h3>Follow Me</h3>
+          <ul>
+            <li><a href="#"><i class="fab fa-linkedin"></i> LinkedIn</a></li>
+            <li><a href="#"><i class="fab fa-github"></i> GitHub</a></li>
+            <li><a href="#"><i class="fab fa-twitter"></i> Twitter</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>© 2025 Shubham Dhasmana. All rights reserved.</p>
+        <a href="#home" class="back-to-top"><i class="fa-solid fa-arrow-up"></i> Back to Top</a>
+      </div>
+    </footer>
+  </main>
 </body>
-
 </html>

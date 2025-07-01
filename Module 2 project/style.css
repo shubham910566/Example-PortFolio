@@ -405,12 +405,12 @@
         color: white;
     }
 
-    .skills .htmlcss {
+    .skills .html {
         background-color: #f44336;
         width: 80%;
     }
 
-    .skills .node {
+    .skills .css {
         background-color: #2196f3;
         width: 60%;
     }
@@ -422,10 +422,10 @@
 
     .skills .mongodb {
         background-color: #4caf50;
-        width: 90%;
+        width: 10%;
     }
 
-    .skills .react {
+    .skills .nodejs {
         background-color: #673ab7;
         width: 5%;
     }
@@ -585,96 +585,88 @@
         background-color: #0056b3;
     }
     /* Portfolio Section */
-.portfolio {
-  background-color: #f9f9f9;
-  padding: 60px 20px;
-  text-align: center;
-}
+    .portfolio {
+        background-color: #f9f9f9;
+        padding: 50px 0;
+        text-align: center;
+    }
 
-.portfolio .heading {
-  font-size: 2.5rem;
-  margin-bottom: 2rem;
-  color: #222;
-  font-weight: 700;
-}
+    .portfolio .heading {
+        font-size: 40px;
+        margin-bottom: 20px;
+        color: #333;
+    }
 
-.portfolio .heading span {
-  color: #007BFF;
-}
+    .portfolio .heading span {
+        color: #007BFF;
+    }
 
-.portfolio-container {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  gap: 2rem;
-}
+    .portfolio-container {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 30px;
+        justify-content: center;
+    }
 
-.portfolio-box {
-  position: relative;
-  width: 300px;
-  overflow: hidden;
-  border-radius: 10px;
-  background-color: #fff;
-  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.1);
-  transition: transform 0.3s ease, box-shadow 0.3s ease;
-}
+    .portfolio-box {
+        position: relative;
+        width: 30%;
+        overflow: hidden;
+        border-radius: 8px;
+        box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+        transition: transform 0.3s ease, box-shadow 0.3s ease;
+        background-color: #fff;
+    }
 
-.portfolio-box:hover {
-  transform: scale(1.04);
-  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
-}
+    .portfolio-box:hover {
+        transform: scale(1.05);
+        box-shadow: 0 6px 20px rgba(0, 0, 0, 0.);
+    }
 
-.portfolio-box img {
-  width: 100%;
-  height: 200px;
-  object-fit: cover;
-  display: block;
-  transition: opacity 0.3s ease;
-}
+    .portfolio-box img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
 
-.portfolio-layer {
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  background: rgba(0, 0, 0, 0.65);
-  color: #fff;
-  padding: 20px;
-  text-align: left;
-  opacity: 0;
-  transition: opacity 0.3s ease;
-  height: 100%;
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-end;
-}
+    .portfolio-layer {
+        position: absolute;
+        bottom: 20px;
+        left: 20px;
+        color: rgb(176, 59, 33);
+        font-weight: bold;
+        background-color: rgba(0, 0, 0, 0.5);
+        padding: 15px;
+        border-radius: 5px;
+        text-align: left;
+        width: calc(100% - 40px);
+    }
+    .portfolio-layer:hover
+    {
+        background-color: black;
+        color:white
+    }
 
-.portfolio-box:hover .portfolio-layer {
-  opacity: 1;
-}
+    .portfolio-layer h4 {
+        font-size: 22px;
+        margin-bottom: 10px;
+    }
 
-.portfolio-layer h4 {
-  font-size: 1.25rem;
-  margin-bottom: 10px;
-}
+    .portfolio-layer p {
+        font-size: 14px;
+        line-height: 1.5;
+        margin-bottom: 15px;
+    }
 
-.portfolio-layer p {
-  font-size: 0.95rem;
-  line-height: 1.4;
-  margin-bottom: 10px;
-  color: #ccc;
-}
+    .portfolio-layer a {
+        color: #fff;
+        font-size: 20px;
+        text-decoration: none;
+    }
 
-.portfolio-layer a {
-  color: #00BFFF;
-  font-size: 1.2rem;
-  display: inline-block;
-  transition: color 0.3s;
-}
-
-.portfolio-layer a:hover {
-  color: #ffffff;
-}
+    .portfolio-layer a:hover {
+        color: #007BFF;
+    }
     /* Contact Section */
     .contact {
         padding: 50px 20px;
